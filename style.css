@@ -1,1 +1,8 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
 
+.card-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
