@@ -10,37 +10,14 @@
 </head>
 <body class="bg-dark text-white">
 
+
+
 <!-- Barra superior personalizada -->
-<div style="background-color: #004389; padding: 1rem;" class="d-flex align-items-center justify-content-between px-4">
-  <img src="assets/logo_branco.png" alt="Logo CVD Vale" style="height: 40px;">
-  <h2 class="text-white m-0">CVDVale</h2>  
+<div class="top-bar position-relative text-center">
+  <img src="assets/logo_branco.png" alt="Logo CVD Vale" class="logo-esquerda">
+  <h2 class="titulo-central">DASHBOARD COMERCIAL</h2>
 </div>
-
-<div class="container-fluid p-4">
-
-  <!-- Navegação por período -->
-  <div class="d-flex justify-content-center mb-4 flex-wrap gap-2" id="meses-navegacao">
-    <!-- Botões dos meses serão gerados por JS -->
-  </div>
-
-  <!-- Funil de Vendas -->
-  <div class="row mb-4">
-    <div class="col-md-6">
-      <h5>Funil de Vendas - Licitação</h5>
-      <canvas id="funnelChart"></canvas>
-    </div>
-    <div class="col-md-6">
-      <h5>Mensal</h5>
-      <canvas id="mensalChart"></canvas>
-    </div>
-  </div>
-
-  <!-- KPIs -->
-  <div class="row text-center mb-4" id="kpis">
-    <!-- Cards de KPI serão gerados por JS -->
-  </div>
-
-</div>
+  
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="script.js"></script>

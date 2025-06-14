@@ -21,16 +21,19 @@ body {
 .top-bar {
   background-color: #004389;
   padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  position: relative;
+  height: 60px;
 }
 
-.top-bar img {
+.logo-esquerda {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
   height: 40px;
 }
 
-.top-bar h2 {
+.titulo-central {
   margin: 0;
   color: white;
   font-weight: 600;
